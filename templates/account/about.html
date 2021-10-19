@@ -1,0 +1,13 @@
+{% extends 'base.html' %} 
+{% block title %}
+         About Page
+{% endblock title %}
+
+{% block 'mainContent' %}
+
+<div class="content p-5">
+    <h2 class="text-center bg-success text-white text-capitalize p-2">Name: {{ user.username }}</h2>
+    <h2 class="text-center bg-success text-white text-capitalize p-2">email: {{ user.email }}</h2>
+</div>
+    
+{% endblock 'mainContent' %}
